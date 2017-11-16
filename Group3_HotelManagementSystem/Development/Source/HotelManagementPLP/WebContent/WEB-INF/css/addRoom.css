@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F1F1F2;
+}
+h1{
+    text-align: center;
+    background-color: #1995AD;
+    font-family: "Tangerine","Times New Roman";
+    font-size: 50px;
+    color: #F1F1F2; 
+}
+h2{
+    text-align: center;
+    background-color: 
+    font-family: "Tangerine","Times New Roman";
+    font-size: 30px;
+    color: #1995AD; 
+}
+
+h3{
+    color: red;
+    text-align: center;
+    
+}
+h4{
+    color: #1995AD;
+    text-align: left;
+    font-size: 20px;
+    
+}
+table{
+    align: centre;
+    font-family: "Tangerine","Times New Roman";
+    font-size: px;
+    color: #1995AD; 
+    background-color: white;
+     border: 4px; 
+    border-color: #1995AD;  
+    
+}
+
+
+button{
+    width: 100%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border: 2px solid #BCBABE;
+    border-radius: 12px;
+    
+    text-align: center;
+    font-size: 25px;
+
+}
+a:link, a:visited {
+    background-color: #A1D6E2;
+    color: darkgrey;
+    padding: 14px 25px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    width: 200px; 
+}
+a:hover, a:active {
+    background-color: #BCBABE;
+    color: white;
+}
+
+#save {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 30%;
+    margin: 10px;
+
+}
+
+
+
+
+#container {
+    position: absolute;
+    width: 1200px;
+    left: 3%;
+    top: 12%;
+    height: 680px;
+}
+
+#hotelTable {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    top: 5%;
+}
+
+#roomSelectForm {
+    position: absolute;
+    top:60%;
+    left: 30%;
+}
+
+th{
+   color: #F1F1F2;
+    background-color: #1995AD;
+}
+tr:nth-child(even){
+	background-color: #F1F1F2
+}
+input[type=submit] {
+    width: 100%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border: 2px solid #BCBABE;
+    border-radius: 8px;
+    
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+#continue{
+   text-align: center;
+    font-family: "Tangerine","Times New Roman";
+    font-size: 60px;
+    color: #BCBABE; 
+    
+    text-align: center;
+     position: absolute;
+     left: px;
+    right: 0px;
+    bottom:30px;
+    
+}

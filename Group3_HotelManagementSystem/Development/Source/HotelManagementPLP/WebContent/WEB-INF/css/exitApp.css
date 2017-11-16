@@ -1,0 +1,22 @@
+		#exitApp{
+    position: absolute;
+     text-align: center;
+    width: 200px;
+    height: 50px;
+    bottom: 60px;
+}
+#exitApp a:link,#exitApp  a:visited {
+		    background-color: #A1D6E2;
+		    color: darkgrey;
+		    padding: 14px 25px;
+		    text-align: center;
+		    font-size: 22px;
+		    text-decoration: none;
+		    display: inline-block;
+		    height: 50px;
+		    width: 200px; 
+		}
+	#exitApp a:hover,#exitApp a:active {
+		    background-color: #BCBABE;
+		    color: white;
+		}

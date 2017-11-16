@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F1F1F2;
+}
+h1{
+    text-align: center;
+    background-color: #1995AD;
+    font-family: "Tangerine","Times New Roman";
+    font-size: 50px;
+    color: #F1F1F2; 
+    
+}
+h2{
+    text-align: center;
+    font-family: "Tangerine","Times New Roman";
+    font-size: 30px;
+    color: darkgrey; 
+    
+}
+#box1{
+    border: 2px solid black;
+    position:absolute;
+    width: 100%;
+    height: 300px;
+    
+} 
+#aid{
+     text-align: center;
+    font-family: "Tangerine","Times New Roman";
+    font-size: 23px;
+    
+    position: absolute;
+     left: 300px;
+    right: 300px;
+    top: 50px; 
+}
+#aidBox{
+    text-align: center;
+    font-family: "Tangerine","Times New Roman";
+    font-size: 30px;
+    
+    position: absolute;
+    left: 300px;
+    right: 300px;
+    top: 75px;  
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #BCBABE;
+    border-radius: 8px;
+} 
+#pass{
+    text-align: center;
+    font-family: "Tangerine","Times New Roman";
+    font-size: 23px;
+    
+    position: absolute;
+     left: 300px;
+    right: 300px;
+    top: 150px;
+}
+
+#passBox{
+    text-align: center;
+    font-family: "Tangerine","Times New Roman";
+    font-size: 30px;
+    
+    position: absolute;
+     left: 300px;
+    right: 300px;
+    top: 175px;
+}
+input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #FFD9D9;
+    border-radius: 8px;
+}
+/*
+input[type=submit] {
+    width: 50%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #FFD9D9;
+    border-radius: 8px;
+    
+    text-align: center;
+    font-size: 25px;
+}
+*/
+
+#loginDiv{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 20%;
+    left: 30%;
+    background-color: white;
+     border: 2px solid #BCBABE;
+}
+
+#loginDiv input[type=text],#loginDiv input[type=password] {
+    width: 450px;
+     border: 2px solid #BCBABE;
+}
+
+#loginDiv p{
+    padding: 10px;
+    margin: 10px;
+}
+
+#loginDiv h2 {
+    padding: 20px;
+}
+
+input[type=submit] {
+    position: absolute;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #BCBABE;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    left: 25%;
+    cursor: pointer;
+}
+
+#errorMessage {
+    position: relative;
+    top: 0px;
+    padding: 10px;
+    color: red;
+    text-align: center;
+}
+
+#loginDiv h3 {
+    text-align: center;
+}
+
